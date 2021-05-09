@@ -63,7 +63,7 @@ function draw() {
 function keyPressed(){
 	console.log(keyCode)
  if(keyCode===32){
-  Matter.Body.applyForce(bobObj5.body,bobObj5.body.position,{x:500,y:-500})
+  Matter.Body.applyForce(bobObj5.body,bobObj5.body.position,{x:100,y:-100})
   console.log("keycode")
  }
 }
